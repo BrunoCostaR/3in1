@@ -38,10 +38,7 @@ export default function Home() {
             <h2>Parceiros &rarr;</h2>
             <p>Com que estamos fazendo.</p>
           </a>
-
         </div>
-        
-
       </main>
     </div>
   )
