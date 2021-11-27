@@ -1,23 +1,16 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-//import BackVideo from "videos/video.mp4";
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.page}>
       <Head>
         <title>3in1</title>
       </Head>
-
-      <video
-        className={styles.video}
-        autoPlay
-        loop
-        muted
-      >
-        <source src="videos/video.mp4" type="video/mp4" />
+      <video className={styles.video} autoPlay loop muted>
+        <source src="videos/video720.mp4" type="video/mp4" />
       </video>
-
+      <div className={styles.overlay}></div>
       <main className={styles.main}>
         <h1 className={styles.title}>3in1.com.br</h1>
         <p className={styles.description}>Porque o Mundo é Digital!</p>
